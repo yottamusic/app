@@ -1,2 +1,2 @@
-# app
-Mobile App for Device Discovery and Configuration
+# flutter_app
+Flutter Application for YottaMusic Device Configuration
