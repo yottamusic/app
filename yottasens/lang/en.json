@@ -2,7 +2,7 @@
   "splashScreen": {
     "name": "YottaSens",
     "title": "Music\n For Everyone",
-    "madeIn": "Made In India"
+    "copyright": "Copyright © 2020 YottaMusic, Inc."
   },
   "intro": {
     "page1": {
@@ -36,10 +36,9 @@
     "item2": "Devices",
     "item3": "Cloud",
     "item4": "Blogs",
-    "item5": "About",
-    "item6": "Settings",
-    "item7": "Report an Issue",
-    "item8": "Help and Feedback"
+    "item5": "Settings",
+    "item6": "Report an Issue",
+    "item7": "Help and Feedback"
   },
   "dashboard": {
     "title": "Dashboard",

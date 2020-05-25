@@ -92,7 +92,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 child: Align(
                     alignment: Alignment.bottomCenter,
                     child: Text(
-                      allTranslations.text("splashScreen.madeIn"),
+                      allTranslations.text("splashScreen.copyright"),
                       softWrap: true,
                       textAlign: TextAlign.center,
                       style: TextStyle(

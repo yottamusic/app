@@ -159,12 +159,12 @@ class _LocalScreenState extends State<LocalScreen> {
               //return new Text(deviceIdentity[index].name);
               return new ListTile(
                 leading: Icon(Icons.donut_large),
-                title: Text(uniqueConnectedDevices[index].name),
+                title: Text(uniqueConnectedDevices[index].name + " (Hostname: ${uniqueConnectedDevices[index].hostName} )"),
                 subtitle: Text(
-                    "IP: ${uniqueConnectedDevices[index].hostName} Port: ${uniqueConnectedDevices[index].port}"),
+                    "IP: ${uniqueConnectedDevices[index].address} Port: ${uniqueConnectedDevices[index].port}"),
                 trailing: Icon(Icons.chevron_right),
                 //onTap: () => debugPrint("${deviceIdentity[index].name} Clicked"),
-                onTap: () => _handleURLButtonPress(context,
+                onTap: () => _handleURLButtonPress(context, uniqueConnectedDevices[index].name,
                     ("http://${uniqueConnectedDevices[index].hostName}:${uniqueConnectedDevices[index].port}")),
               );
             },
@@ -191,9 +191,9 @@ class _LocalScreenState extends State<LocalScreen> {
         ));
   }
 
-  void _handleURLButtonPress(BuildContext context, String url) {
+  void _handleURLButtonPress(BuildContext context, String deviceName, String url) {
     Navigator.push(context,
-        MaterialPageRoute(builder: (context) => WebViewContainer(url)));
+        MaterialPageRoute(builder: (context) => WebViewContainer(title: deviceName, url: url,)));
   }
 
   void refreshDeviceList(BuildContext context) {

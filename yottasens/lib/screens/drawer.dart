@@ -20,11 +20,10 @@ Widget yottaSensDrawer(BuildContext context) {
       _createDrawerItem(icon: Icons.cloud, text: allTranslations.text("drawer.item3"), onTap: () {Navigator.pop(context);Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => CloudScreen()));}),
       Divider(),
       _createDrawerItem(icon: Icons.stars, text: allTranslations.text("drawer.item4"), onTap: () {Navigator.pop(context);Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => BlogPostsScreen()));}),
-      _createDrawerItem(icon: Icons.info, text: allTranslations.text("drawer.item5"), onTap: () {Navigator.pop(context);Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => AboutScreen()));}),
-      _createDrawerItem(icon: Icons.settings, text: allTranslations.text("drawer.item6"), onTap: () {Navigator.pop(context);Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => SettingsScreen()));}),
+      _createDrawerItem(icon: Icons.settings, text: allTranslations.text("drawer.item5"), onTap: () {Navigator.pop(context);Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => SettingsScreen()));}),
       Divider(),
-      _createDrawerItem(icon: Icons.bug_report, text: allTranslations.text("drawer.item7"), onTap: () {Navigator.pop(context);Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => BugReportScreen()));}),
-      _createDrawerItem(icon: Icons.help, text: allTranslations.text("drawer.item8"), onTap: () {Navigator.pop(context);Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => HelpFeedbackScreen()));}),
+      _createDrawerItem(icon: Icons.bug_report, text: allTranslations.text("drawer.item6"), onTap: () {Navigator.pop(context);Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => BugReportScreen()));}),
+      _createDrawerItem(icon: Icons.help, text: allTranslations.text("drawer.item7"), onTap: () {Navigator.pop(context);Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => HelpFeedbackScreen()));}),
     ],
   );
 }

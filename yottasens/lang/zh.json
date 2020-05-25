@@ -2,7 +2,7 @@
   "splashScreen": {
     "name": "YottaSens",
     "title": "音乐\n 适合所有人",
-    "madeIn": "印度制造"
+    "copyright": "版权所有©2020 YottaMusic，Inc."
   },
   "intro": {
     "page1": {
@@ -36,10 +36,9 @@
     "item2": "设备",
     "item3": "云",
     "item4": "博客",
-    "item5": "关于",
-    "item6": "设置",
-    "item7": "报告问题",
-    "item8": "帮助和反馈"
+    "item5": "设置",
+    "item6": "报告问题",
+    "item7": "帮助和反馈"
   },
   "dashboard": {
     "title": "仪表板",
